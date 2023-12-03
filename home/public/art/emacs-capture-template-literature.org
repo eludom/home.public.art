@@ -1,0 +1,71 @@
+* 2023
+** 2023-12 December
+*** 2023-12-03 Sunday
+**** INFO write a haiku about emacs capture templates
+     #+begin_ai
+     [ME]: write a haiku about emacs capture templates
+Capture templates in Emacs,
+Efficiency at my grasp,
+Ideas flowing.
+
+[ME]:
+     #+end_ai
+**** INFO Write a limeric about emacs capture templates
+     #+begin_ai
+     [ME]: Write a limeric about emacs capture templates
+There once was an editor named Emacs,
+Whose capture templates caused no climax.
+With just a few keystrokes,
+Notes were captured like strokes,
+Organized, efficient, no acts of acrobatics!
+
+[ME]: Write an org capture template that when done opens the file
+where the note is stored and positions me at the start of the captured text
+In Emacs, a template so grand,
+To capture notes at my command.
+With org-capture I'll start,
+In a file, it'll impart,
+To open and position as planned.
+     #+end_ai
+**** INFO write an interactive emacs lisp function that calls org capture, and when done calls it with the equivilant of two C-u prefixes, bind the first function to C-c C
+     #+begin_ai
+     [ME]: write an interactive emacs lisp function that calls org capture, and when done calls it with the equivilant of two C-u prefixes, bind the first function to C-c C
+Here's an interactive Emacs Lisp function that calls `org-capture`, and when done, calls it with the equivalent of two `C-u` prefixes:
+
+```emacs-lisp
+(defun my-org-capture-with-prefix ()
+  "Call org-capture with two C-u prefixes."
+  (interactive)
+  (let ((current-prefix-arg '(16)))
+    (call-interactively 'org-capture)))
+
+(global-set-key (kbd "C-c C") 'my-org-capture-with-prefix)
+```
+
+Now, when you press `C-c C`, it will call `org-capture` with the equivalent of two `C-u` prefixes. The `16` in `current-prefix-arg` represents the numeric argument passed by two `C-u` prefixes (`C-u C-u`). You can customize the `kbd` string in `global-set-key` to any keybinding of your choice.
+
+[ME]:
+     #+end_ai
+**** INFO write a very short sonet about emacs capture templates
+     #+begin_ai
+     [ME]: write a very short sonet about emacs capture templates
+In Emacs' embrace, templates ignite,
+Capturing thoughts, ideas crystallize.
+With keystrokes swift, an idea takes flight,
+Structuring words, organizing the skies.
+
+For meetings, tasks, or notes on the fly,
+Capture templates lend a helping hand.
+Efficiently, with ease, they simplify,
+Empowering minds, a productivity brand.
+
+For code snippets or thoughts profound,
+Emacs whispers, "Capture them right here."
+Templates guide, creation unbound,
+Kindling inspiration, far and near.
+
+Oh, Emacs' capture templates, with grace,
+Bring order to chaos, creative space.
+
+[ME]:
+     #+end_ai

@@ -1,0 +1,21 @@
+#+TITLE:     textColoredGlasses.org
+#+AUTHOR:    George M. Jones
+#+EMAIL:     gmj@cert.org
+#+DATE:      2013-04-16 Tue
+#+DESCRIPTION:
+
+
+#+CAPTION: Text Colored Glasses
+#+BEGIN_EXAMPLE
+
+		       	    	                     __
+		       	       	                    /  \ "I'll see you on __
+       	     		    /\	                   /   /  the text side  /  \
+  	       	 	   /  \	                  /       of the moon"  /   /
+       	    -------R------/    \                _/_____       _______  /
+       	    -------G-----/    --\-----W------- /       \ / \ /       \/
+       	    -------B----/	 \            |   Org   |   |  Mode   |
+		       /	  \            \_______/     \_______/
+		      -------------
+
+#+END_EXAMPLE
